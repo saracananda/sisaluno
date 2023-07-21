@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+@font-face{
+    font-family:retro;
+    src: url(Nostalgic\ Retro.otf);
+}
+
+*{
+    
+    font-family: retro;
+}
+
+.bodyimagem{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRUSOEG_ihalD8-aJxyX7bR7CmwCj8JN9jRw&usqp=CAU);*/
+    /* background-image: url(https://img.freepik.com/vetores-gratis/plano-de-fundo-geometrico_23-2149329547.jpg?w=2000); */
+    /* background-image: url(https://i.pinimg.com/564x/56/4b/e3/564be3a76768c70ece67f387c01644a6.jpg); */
+    background-image: url(https://i.pinimg.com/564x/e8/91/45/e891456a3eb66b31ccefafd7c703a041.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+
+}
+
+.blocogeral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.blocodeopcoes{
+    height: 500px;
+    width: 500px;
+    background-color: #ffffff;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 40px;
+    text-align: center;
+    
+}
+
+.titulodosite{
+    margin-bottom: 15px;
+    color: rgb(6, 27, 71);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#menu{
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    
+}
+
+.botãoprincipaldomenu {
+    padding: 10px 20px;
+    background-color: #194E91;
+    /* border: none; */
+    border-radius: 20px;
+    font-size: 25px;
+    color: white;
+    width: 35%;
+}
+
+.botãoprincipaldomenu:hover {
+    background-color: #337ab7;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+#alunoOptions, #professorOptions{
+    
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonsecundario{
+    padding: 6px 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    border: black solid 1px;
+}
+.buttonsecundario:hover{
+    background-color: #353535b9;
+    cursor: pointer;
+    color: rgb(255, 249, 249);
+    
+}
+a{
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+
+/* MAIORIA DO CADALUNO */
+
+.linha{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 17px;
+    width:95%;
+    height: 7vh;
+
+}
+
+.campocpf, .campoidade, .camponascimento {
+    width: 27%;
+    height: 10px;
+	margin: 0 auto;
+	padding: 10px;
+	/*border: none;
+	/*margin-bottom: 10px;*/
+	border-radius: 50px;
+}
+
+.camponome, .campoendereco{
+    width: 75%;
+    height: 10px;
+    margin: 0 auto;
+	padding: 10px;
+	/*border: none;
+	margin-bottom: 10px;*/
+	border-radius: 50px;
+}
+
+.form_aluno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+label{
+    font-size: 20px;    
+}
+.coluna{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.campoendereco{
+    margin-left: 5px;
+}
+.campocpf{
+    margin-left: 45px;
+}
+.camponome{
+    margin-left: 33px;
+}
+.camponascimento{
+    width: 50%;
+}
+input[type=radio]{
+    margin: 5px;
+    color: #FFC750;
+}
+.labeldata{
+    margin: 8px 5px 5px 5px;
+}
+.linhaconfirmacao{
+    display: flex;
+    justify-content:space-around;
+    width: 60%;
+}
+.cadastrar,.voltar{
+    width: 30%;
+    height: 35px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+.cadastrar{
+    background-color: #194E91;
+}
+.voltar{
+    background-color: #FF9800;
+}
+input{
+    border: solid 1px black;
+}
+.aviso{
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #ffffff;
+}
+tr{
+    background-color: #ffffff;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para botões */
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.button2{
+    background-color: #f44336;
+}
+.button3 {
+    background-color:#FF9800;
+}
