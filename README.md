@@ -16,9 +16,9 @@
 
 <p>altaluno: Página onde o usuário faz as alterações de dados do aluno</p>
 
-<p>confirmaexcluir - Página onde o usuário confirma se realmente deseja excluir o aluno do sistema</p>
+<p>confirmaexcluir: Página onde o usuário confirma se realmente deseja excluir o aluno do sistema</p>
 
-<p>conexao - Arquivo onde é realizada a conexão do sistema com o banco de dados</p>
+<p>conexao: Arquivo onde é realizada a conexão do sistema com o banco de dados</p>
 
-<p>Nostalgic Retro - Arquivo de acesso a fonte utilizada no sistema</p>
+<p>Nostalgic Retro: Arquivo de acesso a fonte utilizada no sistema</p>
 
