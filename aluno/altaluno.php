@@ -51,7 +51,7 @@
 <!-- nome end idade datanascimento status -->
 <div class="linha">
     <label for="nomealuno">Nome</label>
-    <input type="text" name="nomealuno" class="camponome" value=<?php echo htmlspecialchars($nome)?>>
+    <input type="text" name="nomealuno" class="camponome" value="<?php echo htmlspecialchars($nome)?>">
 </div>
 
 <div class="linha">
@@ -63,7 +63,7 @@
 </div>
 <div class="linha">
     <label for="enderecoaluno">Endereço</label>
-    <input type="text" name="enderecoaluno" class="campoendereco" value=<?php echo htmlspecialchars($endereco)?>>
+    <input type="text" name="enderecoaluno" class="campoendereco" value="<?php echo htmlspecialchars($endereco)?>">
 </div>
 
 <div class="menor">
