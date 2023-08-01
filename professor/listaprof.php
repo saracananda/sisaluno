@@ -41,8 +41,8 @@ require_once('../conexao.php');
                     <?php foreach($retorno->fetchall() as $value) { ?>
                         <tr>
                             <td> <?php echo $value['id']?> </td>
-                            <td> <?php echo $value['cpf']?> </td> 
                             <td> <?php echo $value['nome']?>  </td> 
+                            <td> <?php echo $value['cpf']?> </td> 
                             <td> <?php echo $value['idade']?> </td> 
                             <td> <?php echo $value['endereco']?> </td> 
                             <td> <?php echo $value['datanascimento']?> </td> 
