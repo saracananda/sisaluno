@@ -10,9 +10,9 @@
 
 <?php 
 
-define('SERVER', 'localhost'); //servidor
-define('USUARIO', 'root'); //usuario
-define('SENHA', ''); //senha da conexão
+define('SERVER', '10.70.230.53:3306'); //servidor
+define('USUARIO', 'sisaluno'); //usuario
+define('SENHA', 'sisaluno2023'); //senha da conexão
 define('DATABASE', 'sisaluno'); //nome da database
 
 try{
