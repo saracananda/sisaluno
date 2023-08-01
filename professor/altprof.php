@@ -51,7 +51,7 @@
 <!-- nome end idade datanascimento status -->
 <div class="linha">
     <label for="nomeprof">Nome</label>
-    <input type="text" name="nomeprof" class="camponome" value=<?php echo htmlspecialchars($nome)?>>
+    <input type="text" name="nomeprof" class="camponome" value="<?php echo htmlspecialchars($nome)?>">
 </div>
 
 <div class="linha">
@@ -60,7 +60,7 @@
 </div>
 <div class="linha">
     <label for="enderecoprof">Endereço</label>
-    <input type="text" name="enderecoprof" class="campoendereco" value=<?php echo htmlspecialchars($endereco)?>>
+    <input type="text" name="enderecoprof" class="campoendereco" value="<?php echo htmlspecialchars($endereco)?>">
 </div>
 
 <div class="linha">
@@ -89,6 +89,19 @@
     <?php  endif; //fecha o if  ?>
 
     <?php if($estatus=='0'):?>
+        <div class="coluna">
+            <label id="ativo" for="Status_prof">Status</label>
+            <div class="linharadio">  
+                <label for="Status_prof" id="ativo">Ativo:</label>
+                <input type="radio" name="Status_prof" value="true">
+
+            <label for="Status_prof">Desativo:</label>
+                <input type="radio" name="Status_prof" value="false" checked>
+            </div>
+        </div>
+    <?php  endif; //fecha o if  ?>
+    <?php
+    if($estatus!='1' && $estatus!='0'):?>
         <div class="coluna">
             <label id="ativo" for="Status_prof">Status</label>
             <div class="linharadio">  
