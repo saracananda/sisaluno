@@ -1,0 +1,359 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+.bodyimagem{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://i.pinimg.com/564x/e8/91/45/e891456a3eb66b31ccefafd7c703a041.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+
+}
+
+.blocogeral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.blocodeopcoes{
+    height: 500px;
+    width: 500px;
+    background-color: #ffffff;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 40px;
+    text-align: center;
+    
+}
+
+.titulodosite{
+    margin-bottom: 15px;
+    color: rgb(6, 27, 71);
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Sora';
+    margin: 2%;
+}
+
+.titulolista{
+    margin-bottom: 15px;
+    color: rgb(6, 27, 71);
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Sora';
+    text-align: center;
+}
+
+#menu{
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    
+}
+
+.botãoprincipaldomenu {
+    padding: 10px;
+    background-color: #194E91;
+    /* border: none; */
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    width: 30%;
+    font-family: 'Sora';
+    font-weight: bold;
+}
+
+.botãoprincipaldomenu:hover {
+    background-color: #337ab7;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+#alunoOptions, #professorOptions, #disciplinaOptions{
+    
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonsecundario{
+    padding: 6px 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    border: black solid 1px;
+    font-family: 'Sora';
+}
+.buttonsecundario:hover{
+    background-color: #353535b9;
+    cursor: pointer;
+    color: rgb(255, 249, 249);
+    
+}
+a{
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    font-family: 'Sora';
+    font-weight: bold;
+}
+
+/* MAIORIA DO CADALUNO */
+
+.campo-dados{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 95%;
+}
+.campo-dadosprof{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 95%;
+}
+.linha{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 17px;
+    width:95%;
+    font-family: 'Sora';
+}
+
+.camponascimento, .campoch, .camposemestre {
+    width: 90%;
+    height: 10px;
+	margin: 0;
+	padding: 10px;
+	border-radius: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.camponome, .campoendereco,  .campoidade, .campocpf{
+    width: 75%;
+    height: 10px;
+    margin: 0 auto;
+	padding: 10px;
+	border-radius: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.camponomedisciplina{
+    width: 75%;
+    height: 10px;
+    margin: 0 auto;
+	padding: 10px;
+	/*border: none;
+	margin-bottom: 10px;*/
+	border-radius: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form_aluno, .form_prof, .form_disciplina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+label{
+    font-family: 'Sora';
+    font-size: 15px;  
+    width: 15%;
+    font-weight: bold;
+}
+
+.labellinhamaior{
+    width: 20%;
+    display: flex;
+    align-items: baseline;
+
+}
+.labelmenor{
+    font-size: 13px;
+
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    align-items: flex-start;
+
+
+}
+
+.linhamenor{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.camponome, .campoidade, .campoendereco, .campocpf{
+    width: 70%;
+}
+input[type=radio]{
+    margin: 2px;
+    color: #FFC750;
+}
+.professordisciplina{
+    width: 80%;
+    margin: 0 auto;
+	/* padding: 15px; */
+	height: 32px;
+	border-radius: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: black solid 1px;
+}
+.labeldata{
+    margin:0;
+    padding-left: 5px;
+}
+.linhaconfirmacao{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    align-items: center;
+}
+.cadastrar,.voltar{
+    width: 30%;
+    height: 35px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.cadastrar{
+    width: 20%;
+    background-color: #194E91;
+    font-family: 'Sora';
+    font-size: 12px;
+}
+.voltar{
+    width: 20%;
+    background-color: #FF9800;
+    font-family: 'Sora';
+    font-size: 13px;
+}
+input{
+    border: solid 1px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aviso{
+    font-size: 18px;
+    margin: 2%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #ffffff;
+    font-size: 18px;
+}
+tr{
+    background-color: #ffffff;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para botões */
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.button2{
+    background-color: #f44336;
+}
+.button3 {
+    background-color:#FF9800;
+}
+#ativo{
+    margin-bottom: 5px;
+}
+/* .menorblocodisciplina{
+    margin-left: 42px;
+    margin-right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+    width: 82%;
+} */
+
+.menor{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+ .linharadio{
+display: flex;
+gap: 2px;
+flex-direction: column;
+} 
+.botaopagexclusao{
+    width: 110px;
+    height: 30px;
+    border-radius: 15px;
+    border:#CCC solid 1px;
+    font-family: 'Sora';
+    font-weight: bold;
+}
+/* .linhaconfirmacaodisciplina{
+    display: flex;
+    justify-content:space-around;
+    width: 70%;
+    margin-left: 45px;
+} */
