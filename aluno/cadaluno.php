@@ -11,7 +11,7 @@
 
 <div class="blocogeral">
     <div class="blocodeopcoes">
-        <form class="form_aluno" method="GET" action="../aluno/crudaluno.php"> 
+        <form class="form_aluno" method="GET" action="crudaluno.php"> 
             <h2 class="titulodosite">CADASTRO DE ALUNO</h2> 
             <br>
             <div class="campo-dados">
