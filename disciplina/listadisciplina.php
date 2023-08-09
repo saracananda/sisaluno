@@ -52,7 +52,7 @@ require_once('../conexao.php');
                             
 
                             <td>
-                            <form method="POST" action="../disciplina/altdisciplina.php">
+                            <form method="POST" action="altdisciplina.php">
                                         <input name="id" type="hidden" value="<?php echo $value['id'];?>"/>
                                         <button name="alterar"  type="submit" class="button">Alterar</button>
                             </form>
@@ -60,7 +60,7 @@ require_once('../conexao.php');
                             </td> 
 
                             <td>
-                            <form method="GET" action="../disciplina/confirmaexcluir.php">
+                            <form method="GET" action="confirmaexcluir.php">
                                         <input name="id" type="hidden" value="<?php echo $value['id'];?>"/>
                                         <input name="nome" type="hidden" value="<?php echo $value['nomedisciplina'];?>"/>
                                         <button name = "excluir" type="submit" class="button button2">Excluir</button>
