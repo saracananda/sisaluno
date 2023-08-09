@@ -43,7 +43,7 @@
 
 <div class="blocogeral">
     <div class="blocodeopcoes">
-        <form class="form_aluno" method="POST" action="../aluno/crudaluno.php">
+        <form class="form_aluno" method="POST" action="crudaluno.php">
             <h2 class="titulodosite">ALTERE OS DADOS DO ALUNO</h2> 
 
             <div class="campo-dados">
