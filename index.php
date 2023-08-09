@@ -22,18 +22,18 @@
         </div>
 
         <div id="alunoOptions" style="display:none;">
-            <button class="buttonsecundario"><a href="../sisaluno/aluno/cadaluno.php">Cadastrar Aluno</a></button>
-            <button class="buttonsecundario"><a href="../sisaluno/aluno/listaaluno.php"><i class="bi bi-list-ol"></i>&ensp; Listar Alunos</a></button>
+            <button class="buttonsecundario"><a href="aluno/cadaluno.php">Cadastrar Aluno</a></button>
+            <button class="buttonsecundario"><a href="aluno/listaaluno.php"><i class="bi bi-list-ol"></i>&ensp; Listar Alunos</a></button>
         </div>
 
         <div id="professorOptions" style="display:none;">
-            <button class="buttonsecundario"><a href="../sisaluno/professor/cadprof.php">Cadastrar Professor</a></button>
-            <button class="buttonsecundario"><a href="../sisaluno/professor/listaprof.php">Listar Professores</a></button>
+            <button class="buttonsecundario"><a href="professor/cadprof.php">Cadastrar Professor</a></button>
+            <button class="buttonsecundario"><a href="professor/listaprof.php">Listar Professores</a></button>
         </div>
 
         <div id="disciplinaOptions" style="display:none;">
-            <button class="buttonsecundario"><a href="../sisaluno/disciplina/caddisciplina.php">Cadastrar Disciplina</a></button>
-            <button class="buttonsecundario"><a href="../sisaluno/disciplina/listadisciplina.php">Listar Disciplinas</a></button>
+            <button class="buttonsecundario"><a href="disciplina/caddisciplina.php">Cadastrar Disciplina</a></button>
+            <button class="buttonsecundario"><a href="disciplina/listadisciplina.php">Listar Disciplinas</a></button>
         </div>
 
         <script>
