@@ -11,7 +11,7 @@
 
 <div class="blocogeral">
     <div class="blocodeopcoes">
-        <form class="form_prof" method="GET" action="../professor/crudprof.php"> 
+        <form class="form_prof" method="GET" action="crudprof.php"> 
             <h2 class="titulodosite">CADASTRO DE PROFESSOR</h2> 
             <br>
             
