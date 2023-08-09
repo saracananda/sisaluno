@@ -43,7 +43,7 @@
 
 <div class="blocogeral">
 <div class="blocodeopcoes">
-<form class="form_prof" method="POST" action="../professor/crudprof.php">
+<form class="form_prof" method="POST" action="crudprof.php">
 <h2 class="titulodosite">ALTERE OS DADOS DO PROFESSOR</h2> 
 
 <input type="hidden" name="id" id="" value="<?php echo $id ?>" >
